@@ -70,6 +70,10 @@ body, html {
   	margin-top: 15px;
   }
 
+  .footer-icons a {
+    color: white;
+  }
+
   .footer-bottom {
 	  text-align: center;
 	  color: white;
