@@ -42,10 +42,16 @@ body, html {
 
   /*Content*/
 
+#section-image {
+  float: left;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
 #section-id {
-  width: 100%;
+  width: 50%;
 	height:100%;
-  margin: 0;
+  margin-left: 50%;
 	font-family: "Roboto", sans-serif;
 	background: #4C3041;
 	background: linear-gradient(to bottom right, #337991, #e8aab4);
