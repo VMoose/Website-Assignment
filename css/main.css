@@ -52,7 +52,7 @@ body, html {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image : url("assign/iphone.png");
+    background-image : url("../images/ssd.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -66,19 +66,20 @@ body, html {
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 1.5em;
     border: 3px solid black;
     border-radius: 20px;
   }
 
-  .hero h1 {
+  .hero h1, h2 {
 
     font-size: 5em;
     margin-top: 0;
     margin-bottom: 0.5em;
-}
+    color: #800000;
+  }
 
   /* Feature */
 
@@ -86,6 +87,7 @@ body, html {
     float: left;
     width: 33.33%;
     background-size: cover;
+    padding-bottom: 10px;
   }
 
   .feature-wrapper:after {
@@ -97,12 +99,42 @@ body, html {
   #featured-image {
     background-size: cover;
     width: 100%;
+    height: 320px;;
   }
 
   .image-wrapper-first, .image-wrapper-second, .image-wrapper-third{
     padding-right: 10px;
     padding-left: 10px;
+    padding-top: 10px;
   }
+
+  .feature-text h2 {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+  }
+
+  .feature-text p {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+  }
+
+/* Actions */
+
+.actions {
+  background-color: white;
+}
+
+.button {
+  background-color: black;
+}
+
+.button:hover {
+  background-color: rgba(255,255,255, 0.3);
+  color: #000;
+  border: 1px solid black;
+}
 
   /* Footer */
 
