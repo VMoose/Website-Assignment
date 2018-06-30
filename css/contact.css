@@ -4,7 +4,7 @@ body, html {
     margin: 0; 
     padding: 0;
     overflow: hidden;
-    height: 120%;
+    height: 100%;
   }
 
   /* Header*/
@@ -42,6 +42,10 @@ body, html {
   }
 
   /*Content*/
+
+section {
+  height: 80%;
+}
 
 #section-id {
   width: 100%;
