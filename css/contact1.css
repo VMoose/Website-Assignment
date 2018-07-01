@@ -133,21 +133,21 @@ iframe {
 
 /*==================================================================
 [ Text ]*/
-.txt1 {
+.text1 {
   font-family: Poppins-Regular;
   font-size: 18px;
   line-height: 1.2;
   color: #fff;
 }
 
-.txt2 {
+.text2 {
   font-family: Poppins-Regular;
   font-size: 15px;
   line-height: 1.6;
   color: #999999;
 }
 
-.txt3 {
+.text3 {
   font-family: Poppins-Regular;
   font-size: 15px;
   line-height: 1.6;
@@ -169,7 +169,7 @@ iframe {
 /*//////////////////////////////////////////////////////////////////
 [ Contact ]*/
 
-.container{
+.container {
   width: 100%;  
   min-height: 100vh;
   display: -webkit-box;
@@ -185,7 +185,7 @@ iframe {
   
 }
 
-.wrap-contact100 {
+.wrapper {
   width: 1120px;
   background: #fff;
   overflow: hidden;
@@ -202,7 +202,7 @@ iframe {
 
 /*==================================================================
 [ Contact more ]*/
-.contact100-more {
+.contact-marker {
   width: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -212,7 +212,7 @@ iframe {
   padding: 30px 15px 0px 15px;
 }
 
-.contact100-more::before {
+.contact-marker::before {
   content: "";
   display: block;
   position: absolute;
@@ -229,7 +229,7 @@ iframe {
 /*==================================================================
 [ Form ]*/
 
-.contact100-form {
+.contact-form {
   width: 50%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -240,7 +240,7 @@ iframe {
   padding: 56px 55px 63px 55px;
 }
 
-.contact100-form-title {
+.contact-form-title {
   width: 100%;
   display: block;
   font-family: Poppins-Regular;
@@ -256,22 +256,22 @@ iframe {
 /*------------------------------------------------------------------
 [ Input ]*/
 
-.wrap-input100 {
+.wrap-input {
   width: 100%;
   position: relative;
   border: 1px solid #e6e6e6;
 }
 
-.rs1-wrap-input100,
-.rs2-wrap-input100 {
+.wrapper-input,
+.wrapper-input2 {
   width: 50%;
 }
 
-.rs2-wrap-input100 {
+.wrapper-input2 {
   border-left: none;
 }
 
-.label-input100 {
+.label {
   font-family: Poppins-Regular;
   font-size: 12px;
   color: #555555;
@@ -294,7 +294,7 @@ iframe {
   margin-bottom: 0;
 }
 
-.input100 {
+.text-input {
   display: block;
   width: 100%;
   background: transparent;
@@ -305,12 +305,12 @@ iframe {
   padding: 0 25px;
 }
 
-input.input100 {
+input.text-input {
   height: 55px;
 }
 
 
-textarea.input100 {
+textarea.text-input {
   min-height: 139px;
   padding-top: 19px;
   padding-bottom: 15px;
@@ -318,7 +318,7 @@ textarea.input100 {
 
 /*---------------------------------------------*/
 
-.focus-input100 {
+.input {
   position: absolute;
   display: block;
   width: calc(100% + 2px);
@@ -343,7 +343,7 @@ textarea.input100 {
   transform: scaleX(1.1) scaleY(1.3);
 }
 
-.input100:focus + .focus-input100 {
+.text-input:focus + .input {
   visibility: visible;
   opacity: 1;
 
@@ -358,7 +358,7 @@ textarea.input100 {
 
 /*------------------------------------------------------------------
 [ Button ]*/
-.container-contact100-form-btn {
+.container-contact-form-btn {
   width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -370,7 +370,7 @@ textarea.input100 {
   padding-top: 23px;
 }
 
-.contact100-form-btn {
+.contact-form-btn {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -400,116 +400,4 @@ textarea.input100 {
 .contact100-form-btn:hover {
   background: #333333;
 }
-
-
-
-/*------------------------------------------------------------------
-[ Responsive ]*/
-
-@media (max-width: 992px) {
-  .contact100-form {
-    width: 60%;
-    padding: 56px 30px 63px 30px;
-  }
-
-  .contact100-more {
-    width: 40%;
-  }
-}
-
-@media (max-width: 768px) {
-  .contact100-form {
-    width: 100%;
-  }
-
-  .contact100-more {
-    width: 100%;
-  }
-}
-
-@media (max-width: 576px) {
-  .contact100-form {
-    padding: 56px 15px 63px 15px;
-  }
-
-  .rs1-wrap-input100,
-  .rs2-wrap-input100 {
-    width: 100%;
-  }
-
-  .rs2-wrap-input100 {
-    border-left: 1px solid #e6e6e6;
-    border-top: none;
-  }
-}
-
-
-/*------------------------------------------------------------------
-[ Alert validate ]*/
-
-.validate-input {
-  position: relative;
-}
-
-.alert-validate::before {
-  content: attr(data-validate);
-  position: absolute;
-  max-width: 70%;
-  background-color: #fff;
-  border: 1px solid #c80000;
-  border-radius: 2px;
-  padding: 4px 25px 4px 10px;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
-  right: 2px;
-  pointer-events: none;
-
-  font-family: Poppins-Regular;
-  color: #c80000;
-  font-size: 13px;
-  line-height: 1.4;
-  text-align: left;
-
-  visibility: hidden;
-  opacity: 0;
-
-  -webkit-transition: opacity 0.4s;
-  -o-transition: opacity 0.4s;
-  -moz-transition: opacity 0.4s;
-  transition: opacity 0.4s;
-}
-
-.alert-validate::after {
-  content: "\f12a";
-  font-family: FontAwesome;
-  display: block;
-  position: absolute;
-  color: #c80000;
-  font-size: 16px;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
-  right: 8px;
-}
-
-.alert-validate:hover:before {
-  visibility: visible;
-  opacity: 1;
-}
-
-@media (max-width: 992px) {
-  .alert-validate::before {
-    visibility: visible;
-    opacity: 1;
-  }
-}
-
-
 
