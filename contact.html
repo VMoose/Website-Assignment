@@ -1,65 +1,86 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Mac-Apple</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" charset="UTF-8"/>
-		<meta http-equiv="content-type" content="text/html; />
-		<meta http-equiv="content-language" content="en-us"/>
-		<meta name="keywords" content="iPhone, mac, tv" />
-		<meta name="description" content="phone" />
-		<meta name="author" content="varun" />
-		<link rel="stylesheet" href="css/contact.css" />
-	</head>
-		<body class="wrapper">
+<head>
+	<title>Contact</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/contact1.css">
+</head>
+<body>
 
-			<!--Header-->
-   		<nav id="navbar">
-				<ul>
-		  		<li><a href="#" target="_blank"><i class="fab fa-apple"></i></a></li>
-		  		<li><a href="#">Mac</a></li>
-		  		<li><a href='#'>iPad</a></li>
-		  		<li><a href='#'>iPhone</a></li>
-		  		<li><a href='#'>Watch</a></li>
-		  		<li><a href='#'>TV</a></li>
-		  		<li><a href='#'>Music</a></li>
-		 		<li><a href='#'>Contact</a></li>
-				</ul>
-      </nav>
-      
-      <!-- Content -->
-      <section class="content">
-          <div id="section-id">
-              <form id="contact_form" class="center">
-                <h2>Contact us</h2>
-                <input type="text" id="contact_name" placeholder="Name" required>  
-                <input type="email" id="contact_email" placeholder="Email" required>
-                <textarea name="message" id="contact_message" rows="6" placeholder="Enter a message mate"></textarea>
-                <button type="submit" id="contact_btn">Send Message</button>
-              </form>
-            
-              
-           </div>
+  <nav id="navbar">
+		<ul>
+		  <li><a href="#" target="_blank"><i class="fab fa-apple"></i></a></li>
+		  <li><a href="#">Mac</a></li>
+		  <li><a href='#'>iPad</a></li>
+		  <li><a href='#'>iPhone</a></li>
+		  <li><a href='#'>Watch</a></li>
+		  <li><a href='#'>TV</a></li>
+		  <li><a href='contact1.html'>Music</a></li>
+		  <li><a href='contact.html'>Contact</a></li>
+		</ul>
+	</nav>
+	<div class="container">
+		<div class="wrapper">
+			<form class="contact-form">
+				<span class="contact-form-title">
+					Send Us A Message
+				</span>
+
+				<label class="label" for="first-name">Tell us your name *</label>
+				<div class="wrap-input wrapper-input" data-validate="Type first name">
+					<input id="first-name" class="text-input" type="text" name="first-name" placeholder="First name">
+					<span class="input"></span>
+				</div>
+				<div class="wrap-input wrapper-input2" data-validate="Type last name">
+					<input class="text-input" type="text" name="last-name" placeholder="Last name">
+					<span class="input"></span>
+				</div>
+
+				<label class="label" for="email">Enter your email *</label>
+				<div class="wrap-input" data-validate = "Valid email is required: ex@abc.xyz">
+					<input id="email" class="text-input" type="text" name="email" placeholder="Eg. example@email.com">
+					<span class="input"></span>
+				</div>
+
+				<label class="label" for="phone">Enter phone number</label>
+				<div class="wrap-input">
+					<input id="phone" class="text-input" type="text" name="phone" placeholder="Eg. +1 800 000000">
+					<span class="input"></span>
+				</div>
+
+				<label class="label" for="message">Message *</label>
+				<div class="wrap-input" data-validate = "Message is required">
+					<textarea id="message" class="text-input" name="message" placeholder="Write us a message"></textarea>
+					<span class="input"></span>
+				</div>
+
+				<div class="container-contact-form-btn">
+					<button class="contact-form-btn">
+						Send Message
+					</button>
+				</div>
+			</form>
+
+			<div class="contact-marker" style="background-image: url('images/bg-01.jpg');">
+			</div>
+		</div>
+  </div>
+  <footer class="myFooter" id="footer-wrapper">
+
+    <div class="footer-icons">
+      <a class="social-button facebook" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a class="social-button twitter" href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a class="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a class="social-button youtube" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+      <a class="social-button instagram" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+      <section class="footer-bottom">
+        <div class="footer-bottom-wrapper">   
+         <i class="fa fa-copyright" role="copyright"></i> 2018 APPLE <span class="footer-bottom-rights"> - All Rights Reserved - </span>
+        </div>
       </section>
-
-
-		  <!-- Footer -->
-		  <footer class="myFooter">
-
-			 <div class="footer-icons">
-				<a class="social-button facebook" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-				<a class="social-button twitter" href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-				<a class="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
-				<a class="social-button youtube" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
-				<a class="social-button instagram" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-			 </div>
-			  <section class="footer-bottom">
-				 <div class="footer-bottom-wrapper">   
-					<i class="fa fa-copyright" role="copyright"></i> 2018 <strong>APPLE</strong></a> <span class="footer-bottom-rights"> - All Rights Reserved - </span>
-				 </div>
-			  </section>
-      </footer>
-		
-		</body>
-		<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script
+  </footer>
+</body>
+<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script
 </html>
