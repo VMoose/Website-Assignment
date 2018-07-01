@@ -1,31 +1,12 @@
+/*Google font import*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+/* Custom form import*/
 @font-face {
-  font-family: Poppins-Regular;
-  src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+  font-family: HelveticaNeue;
+  src: url("fonts/HelveticaNeueLTPro-Th.otf") format("opentype");
+  font-weight: lighter;
 }
-
-@font-face {
-  font-family: Poppins-Medium;
-  src: url('../fonts/poppins/Poppins-Medium.ttf'); 
-}
-
-@font-face {
-  font-family: Poppins-Bold;
-  src: url('../fonts/poppins/Poppins-Bold.ttf'); 
-}
-
-@font-face {
-  font-family: Poppins-SemiBold;
-  src: url('../fonts/poppins/Poppins-SemiBold.ttf'); 
-}
-
-@font-face {
-  font-family: Montserrat-Bold;
-  src: url('../fonts/montserrat/Montserrat-Bold.ttf'); 
-}
-
-
-/*//////////////////////////////////////////////////////////////////
-[ RESTYLE TAG ]*/
 
 * {
 	margin: 0px; 
@@ -35,12 +16,11 @@
 
 body, html {
 	height: 100%;
-	font-family: Poppins-Regular, sans-serif;
+	font-family: HelveticaNeuer, sans-serif;
 }
 
-/*---------------------------------------------*/
 a {
-	font-family: Poppins-Regular;
+	font-family: HelveticaNeue;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -59,13 +39,12 @@ a:hover {
 	text-decoration: none;
 }
 
-/*---------------------------------------------*/
 h1,h2,h3,h4,h5,h6 {
 	margin: 0px;
 }
 
 p {
-	font-family: Poppins-Regular;
+	font-family: HelveticaNeue;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -77,8 +56,6 @@ ul, li {
 	list-style-type: none;
 }
 
-
-/*---------------------------------------------*/
 input {
 	outline: none;
 	border: none;
@@ -93,27 +70,6 @@ textarea:focus, input:focus {
   border-color: transparent !important;
 }
 
-input:focus::-webkit-input-placeholder { color:transparent; }
-input:focus:-moz-placeholder { color:transparent; }
-input:focus::-moz-placeholder { color:transparent; }
-input:focus:-ms-input-placeholder { color:transparent; }
-
-textarea:focus::-webkit-input-placeholder { color:transparent; }
-textarea:focus:-moz-placeholder { color:transparent; }
-textarea:focus::-moz-placeholder { color:transparent; }
-textarea:focus:-ms-input-placeholder { color:transparent; }
-
-input::-webkit-input-placeholder { color: #adadad;}
-input:-moz-placeholder { color: #adadad;}
-input::-moz-placeholder { color: #adadad;}
-input:-ms-input-placeholder { color: #adadad;}
-
-textarea::-webkit-input-placeholder { color: #adadad;}
-textarea:-moz-placeholder { color: #adadad;}
-textarea::-moz-placeholder { color: #adadad;}
-textarea:-ms-input-placeholder { color: #adadad;}
-
-/*---------------------------------------------*/
 button {
 	outline: none !important;
 	border: none;
@@ -128,11 +84,7 @@ iframe {
 	border: none !important;
 }
 
-/*//////////////////////////////////////////////////////////////////
-[ utility ]*/
-
-/*==================================================================
-[ Text ]*/
+/* Text area*/
 .text1 {
   font-family: Poppins-Regular;
   font-size: 18px;
@@ -154,8 +106,7 @@ iframe {
   color: #00ad5f;
 }
 
-/*==================================================================
-[ Size ]*/
+/*sizes*/
 .size1 {
   width: 355px;
   max-width: 100%;
@@ -165,10 +116,7 @@ iframe {
   width: calc(100% - 43px);
 }
 
-
-/*//////////////////////////////////////////////////////////////////
-[ Contact ]*/
-
+/*contact*/
 .container {
   width: 100%;  
   min-height: 100vh;
@@ -200,8 +148,7 @@ iframe {
 
 }
 
-/*==================================================================
-[ Contact more ]*/
+/*contact-marker*/
 .contact-marker {
   width: 50%;
   background-repeat: no-repeat;
@@ -226,9 +173,7 @@ iframe {
 
 
 
-/*==================================================================
-[ Form ]*/
-
+/*form*/
 .contact-form {
   width: 50%;
   display: -webkit-box;
@@ -252,10 +197,7 @@ iframe {
 }
 
 
-
-/*------------------------------------------------------------------
-[ Input ]*/
-
+/*input*/
 .wrap-input {
   width: 100%;
   position: relative;
@@ -316,8 +258,6 @@ textarea.text-input {
   padding-bottom: 15px;
 }
 
-/*---------------------------------------------*/
-
 .input {
   position: absolute;
   display: block;
@@ -356,8 +296,7 @@ textarea.text-input {
 
 
 
-/*------------------------------------------------------------------
-[ Button ]*/
+/*Button*/
 .container-contact-form-btn {
   width: 100%;
   display: -webkit-box;
@@ -397,7 +336,7 @@ textarea.text-input {
   transition: all 0.4s;
 }
 
-.contact100-form-btn:hover {
+.contact-form-btn:hover {
   background: #333333;
 }
 
