@@ -293,11 +293,11 @@ textarea.text-input {
   background: #333333;
 }
 
-.grid {
+.container_12 {
   width: 100%;
   display: table;
   border-collapse:separate;
-  border-spacing:15px;
+  border-spacing:28px;
 }
 
 .grid-row {
@@ -307,13 +307,13 @@ textarea.text-input {
   margin:0 0 -15px 0;
 }
 
-.item {
+.grid_6 {
   display: table-cell;
   background: #fff;
   padding: 2%;
 }
 
-.item h4 {
+.grid_6 h4 {
   font-family:HelveticaNeue;
 }
 
