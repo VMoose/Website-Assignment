@@ -145,6 +145,7 @@ iframe {
 /*contact-marker*/
 .contact-marker {
   width: 50%;
+  background-image: url('../images/contact_us.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -305,6 +306,11 @@ textarea.text-input {
   display: table;
   table-layout: fixed;
   margin:0 0 -15px 0;
+}
+
+#grid-image {
+  background:url('../images/map.png');
+  background-size: cover;
 }
 
 .grid_6 {
