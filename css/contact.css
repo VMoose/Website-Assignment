@@ -319,7 +319,7 @@ textarea.text-input {
   padding: 2%;
 }
 
-.grid_6 h4 {
+.grid_6 h4 ,address{
   font-family:HelveticaNeue;
 }
 
@@ -338,6 +338,7 @@ footer {
   width: 100%;
   height: 90px;
 }
+
 .footer-icons {
   text-align: center;
   font-size: 20px;
