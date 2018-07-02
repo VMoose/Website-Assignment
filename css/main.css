@@ -122,6 +122,15 @@ li a:visited {
   clear: both;
 }
 
+.feature-wrapper h1 {
+  font-size: 44px;
+  font-weight: 600;
+  color: #111;
+  margin-top: 10px;
+  font-family:SF-Pro-heavy;
+  text-align: center;
+}
+
 #featured-image {
   background-size: cover;
   width: 100%;
@@ -131,7 +140,7 @@ li a:visited {
 .image-wrapper-first, .image-wrapper-second, .image-wrapper-third{
   padding-right: 10px;
   padding-left: 10px;
-  padding-top: 100px;
+  padding-top: 20px;
 }
 
 .feature-text h2 {
