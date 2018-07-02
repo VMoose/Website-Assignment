@@ -74,7 +74,7 @@ a:hover {
 }
 
 h1,h2,h3,h4,h5,h6 {
-	margin: 0px;
+	margin-bottom: 50px;
 }
 
 p {
@@ -291,6 +291,30 @@ textarea.text-input {
 
 .contact-form-btn:hover {
   background: #333333;
+}
+
+.grid {
+  width: 100%;
+  display: table;
+  border-collapse:separate;
+  border-spacing:15px;
+}
+
+.grid-row {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  margin:0 0 -15px 0;
+}
+
+.item {
+  display: table-cell;
+  background: #fff;
+  padding: 2%;
+}
+
+.item h4 {
+  font-family:HelveticaNeue;
 }
 
 /*Footer*/
