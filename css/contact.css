@@ -310,7 +310,9 @@ textarea.text-input {
 
 #grid-image {
   background:url('../images/map.png');
-  background-size: cover;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .grid_6 {
