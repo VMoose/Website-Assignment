@@ -1,13 +1,13 @@
-Apple 
+Apple <br>
 Effort to re-create website similar to apple
 
-Getting Started
+Getting Started<br>
 git clone https://github.com/VMoose/Website-Assignment.git
 
-Prerequisites
-Install Node js
-Run npm install -g http-server
-run http-server on cloned directory
+Prerequisites<br>
+Install Node js <br>
+Run npm install -g http-server <br>
+run http-server on cloned directory <br>
 
-Author
+Author :<br>
 Varun Malik
