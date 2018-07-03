@@ -20,7 +20,7 @@ body, html {
 }
 
 /*Header*/
-#navbar {
+header {
   position: sticky;
   top: 0%;
   z-index: 2;
@@ -294,6 +294,7 @@ textarea.text-input {
   background: #333333;
 }
 
+/*Grid*/
 .container_12 {
   width: 100%;
   display: table;
@@ -323,6 +324,16 @@ textarea.text-input {
 
 .grid_6 h4 ,address{
   font-family:HelveticaNeue;
+}
+
+/*Music*/
+
+#music-ipad {
+  height: 100%;
+  background-image: url("../images/ipad.PNG");
+  background-size: 90% 90%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /*Footer*/
