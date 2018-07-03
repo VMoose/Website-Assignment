@@ -295,7 +295,7 @@ textarea.text-input {
 }
 
 /*Grid*/
-.container_12 {
+.container-music {
   width: 100%;
   display: table;
   border-collapse:separate;
@@ -331,9 +331,54 @@ textarea.text-input {
 #music-ipad {
   height: 100%;
   background-image: url("../images/ipad.PNG");
-  background-size: 90% 90%;
+  background-size: 90% 100%;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.grid_12 {
+  background:url('../images/imusic.png');
+  height: 150px;
+  margin-top:30px;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#beatles-grid {
+  background:url('../images/beatles.jpg');
+  height: 150px;
+  margin-top: 20px;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#eminem-grid {
+  background:url('../images/eminem.jpg');
+  height: 150px;
+  margin-top: 20px;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#icicles-grid {
+  background:url('../images/icicles.jpg');
+  height: 150px;
+  margin-top: 20px;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#encore-grid {
+  background:url('../images/encore.jpg');
+  height: 150px;
+  margin-top: 20px;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /*Footer*/
