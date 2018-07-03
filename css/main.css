@@ -457,7 +457,7 @@ textarea.text-input {
 #music-ipad {
   height: 100%;
   background-image: url("../images/ipad.PNG");
-  background-size: 90% 100%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
