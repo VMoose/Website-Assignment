@@ -1,13 +1,13 @@
-Apple :<br>
+# Orange
 Effort to re-create website similar to apple
 
-Getting Started :<br>
+## Getting Started
 git clone https://github.com/VMoose/Website-Assignment.git
 
-Prerequisites :<br>
-Install Node js <br>
-Run npm install -g http-server <br>
-run http-server on cloned directory <br>
+## Prerequisites :<br>
+* Install Node js
+* Run npm install -g http-server 
+run http-server on cloned directory
 
-Author :<br>
-Varun Malik
+## Author : 
+* Varun
