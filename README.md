@@ -1,4 +1,4 @@
-# Orange
+# Project Fruit
 Effort to re-create website similar to apple
 
 ## Getting Started
