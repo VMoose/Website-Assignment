@@ -97,7 +97,7 @@ a:hover {
 	text-decoration: none;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h5,h6 {
 	margin-bottom: 50px;
 }
 
@@ -449,7 +449,13 @@ textarea.text-input {
 }
 
 .grid_6 h4 ,address{
-  font-family:HelveticaNeue;
+  font-style: italic;
+  margin-top: 6px;
+  font-weight: 100;
+}
+
+.grid_6 label {
+  font-family: HelveticaNeue-Bd;
 }
 
 /*Music*/
